@@ -59,7 +59,7 @@ if len(faces) > 0:
             cv2.rectangle(imgout, (xe+x, ye+y), (xe+w+x, ye+h+y), (0,0,250),2) 
             if ic==2:                                                                      
             break  
-   cv2.imshow("nima", imgout)
+   cv2.imshow("Zohre", imgout)
    if cv2.waitKey(1) & 0xFF == ord('q'):               
       break
 
